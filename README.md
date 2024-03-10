@@ -12,7 +12,7 @@ This repository contains a PostgreSQL database schema designed to support a numb
 * **games_played (integer)**: Keeps a count of the total games played by the user.
 * **best_game (integer)**: Records the lowest number of guesses it took the user to win a game.
 
-**Functionality (Optional)**
+**Functionality**
 
 If your code interacts with this database schema, you can elaborate on how the application leverages the tables and data:
 
@@ -20,7 +20,7 @@ If your code interacts with this database schema, you can elaborate on how the a
 * The application tracks the number of games played by each user.
 * It also keeps a record of the user's best game (fewest guesses to win).
 
-**Additional Notes (Optional)**
+**Additional Notes**
 
 * This script provides a starting point for the database structure. You might need to modify it based on your specific game implementation.
 * Consider including instructions on how to import the schema into a PostgreSQL database if applicable.
@@ -47,7 +47,7 @@ If your code interacts with this database schema, you can elaborate on how the a
     * If the guess is lower or higher than the secret number, a hint is given.
 * Upon a successful guess, the script congratulates the player, displays the number of guesses it took, and updates the player's best score (if the current guess count is lower) in the database.
 
-**Database Integration (Optional):**
+**Database Integration:**
 
 * The script assumes the existence of a PostgreSQL database named "number_guess" with a table named "games" to store player data.
 * The table structure should include columns for username, games_played, and best_game.
@@ -58,7 +58,7 @@ If your code interacts with this database schema, you can elaborate on how the a
 * The script currently uses an infinite loop for the guessing process. You might consider implementing an alternative like a set number of attempts or a time limit.
 * Error handling can be further improved to handle potential database connection issues or unexpected user input.
 
-**Getting Started (Optional):**
+**Getting Started:**
 
 * Ensure you have Bash installed and a working PostgreSQL database with the "number_guess" table.
 * Adjust the script's database connection details (username, database name) if necessary.
