@@ -1,6 +1,7 @@
 # Number guess game
 Project/ Problem: [BootCamp](https://www.freecodecamp.org/learn/relational-database/build-a-number-guessing-game-project/build-a-number-guessing-game)
 
+[![pexels-black-ice-1314543.jpg](https://i.postimg.cc/yYQr5Q4Q/pexels-black-ice-1314543.jpg)](https://postimg.cc/ykRP3TNc)
 
 ## PSQL - Description : 
 
